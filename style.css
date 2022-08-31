@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #fbfbfb;
+    font-size: 16px;
+}
+
+nav{
+    width: 100%;
+}
+
+.azulOscuro{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    background: rgb(31,20,103);
+    background: linear-gradient(90deg, rgba(31,20,103,1) 0%, rgba(15,53,162,1) 50%, rgba(35,9,244,1) 100%);
+}
+
+.icono{
+    width: 2.5em;
+    padding: 0.25em;
+}
+
+.iconos{
+    margin-right: 1rem;
+}
+
+.iconos :active{
+    transform: scale(0.7);
+}
+.card{
+    display: block;
+    width: 30em;
+    margin: 1rem;
+    padding: 0.5em;
+    font-weight: 500;
+}
+.conImagen{
+    background-color: #09f;
+    color:#fff;
+}
+.sinImagen{
+    background-color: #fff;
+    color:#09f;
+}
+
+.card-text{
+    font-size: 1.5em;
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 30em;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experiencias{
+    text-decoration: none;
+    display: flex;
+    height: 4em;
+    margin-top: 1.5rem;
+}
+
+.textoExperiencia{
+    align-self: center;
+    margin: 0 0 0 1rem;
+}
+
+.listaXp{
+    padding: 0;
+}
+
+.grande{
+    width: 6em;
+}
+
+.negro{
+    background-color: #000;
+}
+
+.nombreCard{
+    color: #008;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media (max-width: 900px){
+    .cuerpo{
+        flex-wrap: wrap;
+    }
+    .card-img-top{
+        height: 15em;
+    }
+
+}
+
+@media (max-width: 500px){
+    body{
+     font-size: 11px;
+    }
+}
+
+.contenedor{
+
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.formulario{
+    margin-top: 8rem;
+    padding: 0.1em;
+    display: flex;
+    justify-content: center;
+}
+
+.sesion{
+    color:#09f;
+}
+
+.loginImput{
+    font-size: 1.5em;
+    width: 82%;
+    border: none;
+    padding: 0.5em;
+}
+
+.input-contenedor{
+    margin-bottom: 1em;
+    border: 3px solid rgb(17, 3, 99);
+}
+
+.icon{
+    width: 2.5em;
+    text-align: center;
+    color: #000;
+}
+
+.button{
+    border: none;
+    color:#fff;
+    font-size: 1.5em;
+    background-color: #09f;
+    padding: 1em 1.5em;
+    border-radius: 0.5em;
+    transition: background-color .5s;
+}
+
+.button:hover{
+    background-color: #008;
+}
