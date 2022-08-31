@@ -1,25 +1,95 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="estilo.css">
-    </head>
-
-    <body>
-        <header>
-            <h1>Mi portfolio</h1>
-        </header>
-        <div class="container">
-            <section>
-                <h2>Santiago Lucarelli</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum minima ut ratione est optio odio voluptate expedita exercitationem molestiae voluptatem eos, earum tenetur commodi reiciendis vitae sapiente amet quis molestias?</p>
+<!doctype html>
+<html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <meta name="keywords" content="Ingeniería, Lucarelli" />
+            <!--     Define a description of your web page -->
+            <meta name="description" content="Este es el portfolio web de Santiago Lucarelli, estudiante de ingeniería civil y técnico electromecánico. Me gusta aprender cosas." />
+            <!--     Refresh document every 30 seconds -->
+            <!-- <meta http-equiv="refresh" content="30"> -->
+            <meta name="subject" content="your website's subject">
+            <meta name="copyright" content="Santiago Lucarelli">
+            <!-- <meta name="robots" content="index,follow, noindex, nofollow, none" /> -->
+            <meta name="Classification" content="Business">
+            <!--     Define the author of a page -->
+            <meta name="author" content="Santiago Lucarelli, santialelucarelli@gmail.com">
+            <meta name="designer" content="Santiago Lucarelli">
+            <!-- <meta name="url" content="http://www.websiteaddrress.com">
+            <meta name="identifier-URL" content="http://www.websiteaddress.com"> -->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Santiago Lucarelli</title>
+            <script src="https://kit.fontawesome.com/5b95ee1c8c.js" crossorigin="anonymous"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                <nav>
+                    <div class="azulOscuro">
+                        <div class="iconos">
+                            <a href="mailto:santialelucarelli@gmail.com"><img  class="icono" src="images\email.png" alt="mail"></a>
+                            <a href="#"><img  class="icono" src="images\linkedin-brands.svg" alt="linkedin"></a>
+                            <a href="#"><img  class="icono" src="images\moon-regular.svg" alt="cambiar a nocturno"></a>
+                            <a href="login.html"><img  class="icono" src="images\usuario.png" alt="iniciar sesión"></a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <section class="cuerpo">
+                <div class="card conImagen">
+                    <img src="images\GDB_0172.jpg" class="card-img-top" alt="Foto de Santi">
+                    <div class="card-body">
+                    <p class="card-text"><h1 class="nombreCard">SANTIAGO<br> LUCARELLI</h1>Técnico Electromecánico egresado del Colegio
+                    Salesiano San José, actualmente cursando primer año de Ingeniería Civil.
+                    De Rosario, Argentina.<br>
+                    <h4>INTERESES:</h4>
+                    Ingeniería, Programación, Tenis, Matemáticas.<br><br>
+                    <h4>HABILIDADES:</h4>
+                    <ul>
+                        <li>Dibujo CAD 2D (AUTOCAD)</li>
+                        <li>Dibujo CAD 3D (SOLIDWORKS)</li>
+                        <li>Conocimientos en HTML, CSS y Javascript</li>
+                        <li>Nivel Inglés intermedio</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Resolución de problemas</li>
+                        <li>Rapidez de aprendizaje</li>
+                        <li>Compromiso</li>
+                    </ul></p>
+                    </div>
+                </div>
+                <div class="card sinImagen">
+                    <div class="card-body">
+                    <h4>TRAYECTORIA ACADÉMICA:</h4>
+                        <ul class="listaXp">
+                            <li class="experiencias"><img class="imagenExperiencia" src="images\descarga_1.jpg" alt="La Salle Rosario">
+                            <p class="textoExperiencia">Primaria Colegio La Salle Rosario (2010-2016)</p></li>
+                            <li class="experiencias"><img class="imagenExperiencia grande" src="images\logo-san-jose.png" alt="San José Rosario">
+                            <p class="textoExperiencia">Secundaria Técnica Colegio Salesiano San José N°8013 (2017-2022)</p></li>
+                            <li class="experiencias"><img class="imagenExperiencia" src="images\descarga-_1_.jpg" alt="UTN Rosario">
+                            <p class="textoExperiencia">Cursando Ing. Civil UTN FRRO (2023-Actualidad)</p></li>
+                    </ul><br>
+                    <h4>EXPERIENCIAS:</h4>
+                    <ul class="listaXp">
+                        <li class="experiencias"><img class="imagenExperiencia" src="images\1598971777982.jpg" alt="AFG ingeniería">
+                        <p class="textoExperiencia">Pasantía 100 horas AFG en oficina técnica (2022)</p></li>
+                        <li class="experiencias"><img class="imagenExperiencia" src="images\LOGO-OMA-TRANSPARENTE.gif" alt="OMA">
+                        <p class="textoExperiencia">Actualmente en Regionales Olimpiada de Matemáticas Argentina (2022)</p></li>   
+                        <li class="experiencias"><img class="imagenExperiencia" src="images\AAT logo.png" alt="AAT">
+                        <p class="textoExperiencia">Jugador circuito Asociación Argentina de Tenis. Torneos jugados: Pro Tour, G1, G2, G3, G4 (2013-Actualidad)</p></li>
+                        <li class="experiencias"><img class="imagenExperiencia grande negro" src="images\copa2018.jpg" alt="La Salle Copa Profesorado">
+                        <p class="textoExperiencia">Mención copa del profesorado La Salle 2018 en equipo (2018)</p></li> 
+                        <li class="experiencias"><img class="imagenExperiencia grande negro" src="images\20220606193025_cansat.jpg" alt="CANSAT Argentina">
+                        <p class="textoExperiencia">Mención de honor proyecto CANSAT 2022, en el equipo E-CONECTAR-AR (2022)</p></li>
+                        <li class="experiencias"><img class="imagenExperiencia grande negro" src="images\Argentina Programa.png" alt="Argentina Programa primera etapa">
+                        <p class="textoExperiencia">Primera etapa Argentina Programa completo. (2022)</p></li>    
+                    </ul><br>
+                    <h4>CONTÁCTEME:</h4>
+                    <p class="textoExperiencia">Correo Electrónico: santialelucarelli@gmail.com<br>
+                    Teléfono: 3416173483<br></p>
+                    </div>
+                </div>
             </section>
-        </div>
-        <footer>
-            <p></p>
-        </footer>
-    </body>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        </body>
 </html>
